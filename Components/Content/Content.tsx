@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Pack from "../../Images/Packs.png"
+import Pack from "/xyz/Packs.png"
 import { Text,Sub,Para, Wrap,SubText, Desc} from "./content.styles";
 const Content=()=>{
     return(
