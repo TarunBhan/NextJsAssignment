@@ -22,7 +22,7 @@ const Content=()=>{
         <Desc>
         Get Your Pack Now
         </Desc>
-        <Image src="/packs.png" alt="" height="256px" width="919px"  />
+        <Image src="/xyz/packs.png" alt="" height="256px" width="919px"  />
     </Wrap>
     <hr></hr>
     </>
