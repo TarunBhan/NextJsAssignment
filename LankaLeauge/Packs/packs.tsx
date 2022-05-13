@@ -1,5 +1,5 @@
 import React from "react";
-import { PacksItems, Pack, CardDetails, Main, ButtonWrap, Btn ,Space} from "./packs.styles";
+import { PacksItems, Pack, CardDetails, Main, ButtonWrap, Btn, Space } from "./packs.styles";
 import Image from "next/image";
 import { Details } from '../../Images/Data/Data';
 import Img3 from '../../pages/Img3';
@@ -54,7 +54,7 @@ const Packs: React.FC<Props> = ({ name }): any => {
                                     <CardDetails size="18px" weight="500" color={currElem.tagcolor} lineHeight="21.94px" opacity={0.8}>
                                         {currElem.date}
                                     </CardDetails>
-                                    <CardDetails size="28px" weight="500" color="#ffffff" lineHeight="21.94px" opacity={1}>
+                                    <CardDetails size="30px" weight="500" color="#ffffff" lineHeight="21.94px" opacity={1}>
                                         {currElem.price}
                                     </CardDetails>
                                     <ButtonWrap >
@@ -65,7 +65,7 @@ const Packs: React.FC<Props> = ({ name }): any => {
                                 </PacksItems>
                             </Main>
                             :
-                          null
+                            null
                         )
                     })
                 }
@@ -91,10 +91,6 @@ const Packs: React.FC<Props> = ({ name }): any => {
                                         <CardDetails size="14px" weight="500" color={currElem.tagcolor} lineHeight="21.94px" opacity={0.8}>
                                             21 Jan 2021 • 05:30 <br></br>PMSold 35,321
                                         </CardDetails>
-                                        <CardDetails size="28px" weight="500" color="#ffffff" lineHeight="21.94px" opacity={1}>
-                                            {currElem.price}
-                                        </CardDetails>
-
                                     </PacksItems>
                                 </Main>
                                 :

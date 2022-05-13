@@ -5,7 +5,7 @@ import coming from '../../Images/comin_soon.svg'
 import searchbar from '../../Images/Vector.png';
 import userInfo from  '../../Images/Vector1.png';
 import notification from  '../../Images/notification.png';
-import { Nav,SearchBar,StyledInput,Options,Notification,Li} from "./Header.styles";
+import { Nav,SearchBar,StyledInput,Options,Notification,Li, Active} from "./Header.styles";
 import { css } from "@emotion/react";
 import Link from "next/link";
 const res=()=>{
@@ -13,8 +13,10 @@ const res=()=>{
    return <>
     <Nav>
     <Li><Image src={help} alt=""/></Li>
-    <Li> <Link href="/">Packs
-    </Link> </Li>
+    <Li className="active"> <Link href="/" className="active">Packs
+    </Link>
+    <Active ></Active>
+    </Li>
     <Li> <Link href="/">MarketPlace </Link></Li>
     <Li> <Link href="/">Vault </Link></Li>
     <Li> <Link href="/">Club </Link>

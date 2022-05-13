@@ -1,4 +1,7 @@
 import styled from '@emotion/styled'
+type Props={
+background:string;
+}
 export const Nav =styled.div`
 display: flex;
 flex-direction: row;
@@ -66,4 +69,14 @@ export const Li = styled.div`
     z-index: 4;
     position: relative;
     text-style:none;
+ 
 `
+
+export const Active=styled.div`
+border-bottom: 2px solid red;
+    margin-top: 10px;
+    width: 45px;
+    height: 2px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(255, 153, 109, 0) 38.13%, rgb(255 0 0 / 59%) 100%);
+    `
