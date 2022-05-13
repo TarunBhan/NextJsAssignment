@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Outer, Wrap } from "../Components/Content/content.styles";
-import { SoldBox, SoldTag } from "../LankaLeauge/Packs/packs.styles";
+import { Outer, Wrap } from "../../Components/Content/content.styles";
+import { SoldBox, SoldTag } from "../../Components/Packs/packs.styles";
 
 interface Type{
 path:string;

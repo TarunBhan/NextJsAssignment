@@ -31,7 +31,7 @@ export const Sub=styled.div`
 export const Para=styled.p`
     color:${props=>props.color};
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 
     font-weight: 500;
     margin: 0;

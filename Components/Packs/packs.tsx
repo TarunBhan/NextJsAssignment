@@ -1,9 +1,9 @@
 import React from "react";
 import { PacksItems, Pack, CardDetails, Main, ButtonWrap, Btn, Space } from "./packs.styles";
 import Image from "next/image";
-import { Details } from '../../Images/Data/Data';
-import Img3 from '../../pages/Img3';
-import Img from "../../Img";
+import { Details } from '../Data/Data';
+import Img3 from '../../pages/ImageWrap/Img3';
+import Img from "../../pages/ImageWrap/Img";
 interface Props {
     name: string
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { SoldBox, SoldTag } from "../LankaLeauge/Packs/packs.styles";
-import pic from '../public/Sp1.png';
+import { SoldBox, SoldTag } from "../../Components/Packs/packs.styles";
+import pic from '../../public/xyz/Sp1.png';
  const Imgs=()=>{
     return <>
     

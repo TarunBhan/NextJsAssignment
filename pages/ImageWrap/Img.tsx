@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Tag, TagTitle } from "./LankaLeauge/Packs/packs.styles";
+import { Tag, TagTitle } from "../../Components/Packs/packs.styles";
 interface Props{
     paths:string;
     tag:string

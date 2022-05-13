@@ -5,7 +5,7 @@ import { Desc,
     SubText,
     Text,
     Wrap,
-     } from '../Components/Content/content.styles';
+     } from './Content/content.styles';
      interface Props {
         name:string
         desc:string

@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import  Header  from '../Components/Header/Header'
 import Content from '../Components/Content/Content'
-import League from '../LankaLeauge/League'
+import League from '../Components/PacksHeading'
 import Footer from '../Components/Footer/Footer'
 import Faq from '../Components/Faq/Faq';
-import Packs from '../LankaLeauge/Packs/packs'
+import Packs from '../Components/Packs/packs'
 const Home: NextPage = () => {
   return (<>
   <div>
