@@ -47,7 +47,8 @@ export const SearchBar= styled.div`
     gap:0.9rem;
     padding:9px;
     height:30px;
-   
+    max-width: 264px;
+    margin-top: 6px;
 `
 export const StyledInput=styled.input`
 background: transparent;
@@ -63,6 +64,7 @@ export const Options = styled.div`
     row-gap: 3rem;
     z-index: 4;
     position: relative;
+    margin-top:7px;
 `
 export const Notification =styled.div`
 background: radial-gradient(79.55% 79.55% at 39.95% 8.68%, #FF996D 0%, #FF0000 100%),linear-gradient(0deg, #EE3233, #EE3233);
