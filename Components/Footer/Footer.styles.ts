@@ -61,11 +61,10 @@ flex-direction:column;
 export const FooterDesign=styled.div`
 position: absolute;
 right: 0;
-bottom: 0px;
-@media screen and (max-width: 1103px){
-    min-height: 200px;
-    bottom: 102px;
-    float: right;
+bottom: 67px;
+margin-left:200px;
+@media (max-width: 600px){
+    bottom: 216px;
 }
 `
 export const Hr=styled.div`

@@ -23,7 +23,7 @@ const res=()=>{
     <Image src={coming} alt="" />
     </Li>
     <SearchBar>
-    <Image src={searchbar} alt=""/>
+    <Image src={searchbar} alt="" width="16px" height="16px"/>
     <StyledInput placeholder="Search" />
     </SearchBar>
     <Options>
@@ -31,7 +31,7 @@ const res=()=>{
     </Options>
     <Options>
     <Notification />
-    <Image src={notification} alt=""/>
+    <Image src={notification} alt="" />
     
     </Options>
 

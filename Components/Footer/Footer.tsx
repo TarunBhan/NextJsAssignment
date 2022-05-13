@@ -125,6 +125,8 @@ const Footer = () => {
                  
                 src={FooterImage}
                 className="footer-img" 
+                height="141px,,,247px"
+                width="94px,,,166px"
                 />
                 </FooterDesign>
 

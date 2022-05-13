@@ -16,7 +16,7 @@ const Query = () => {
                 </Inner>
             </Wrap>
             <TextQ>
-                Everyone considers the best time to open packs is whenever they got their best pulls .<br></br>But in reality it doesn&apos;t matter. I&apos;ve pulled... Read more
+                Everyone considers the best time to open packs is whenever they got their best pulls .But in reality it doesn&apos;t matter.    I&apos;ve<br></br> pulled... Read more
             </TextQ>
             <Wrap mb="30px" mt="40px">
                 <Inner size="30px" weight="800" color="#10FFC6" lineHeight="37px">
@@ -24,7 +24,7 @@ const Query = () => {
                 </Inner>
             </Wrap>
             <TextQ>
-                It depends on the pack type, if you open an ultimate pack. The most unique top-rated moments, all in a single <br></br>pack... Read more
+                It depends on the pack type, if you open an ultimate pack. The most unique top-rated moments, all in a single pack... <br></br>Read more
             </TextQ>
         </QueryBox>
     )

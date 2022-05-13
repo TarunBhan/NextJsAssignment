@@ -26,7 +26,7 @@ justify-content: flex-start;
 /* margin-left: 200px; */
 flex-flow: wrap;
 gap: 20px;
-font-family: sans-serif;
+font-family: 'Montserrat', sans-serif;
 `
 
 export const CardDetails=styled.span<Cards>`
@@ -56,7 +56,7 @@ color: ${props=>props.color};
     background: ${props=>props.background};
     width: fit-content;
     height: 28px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     text-align: center;

@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 export  const TextQ=styled.span`
 font-weight: 500;
-font-size: 20px;
-font-family: 'Montserrat';
+font-size: 17px;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 line-height: 24px;
 max-width: 1260px;

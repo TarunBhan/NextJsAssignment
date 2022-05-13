@@ -5,19 +5,23 @@ background:string;
 export const Nav =styled.div`
 display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content: flex-start ;
 flex-wrap: wrap;
 margin-top: 2rem;
 padding: 0;
 height: 3vh;
-margin-bottom:23px;
+
 gap: 3rem;
-@media (max-width:866px)
+
+@media (max-width:600px)
 {
-    margin-top: 10px;
-    padding: 10px;
-    gap: 3rem;
-    display: flex;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:10px;
+    margin-bottom:20rem;
+    padding:10px;
+    gap:3rem;
+  
 }
 `
 // export const Ul =styled.ul`
@@ -40,6 +44,10 @@ export const SearchBar= styled.div`
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
+    gap:0.9rem;
+    padding:9px;
+    height:30px;
+   
 `
 export const StyledInput=styled.input`
 background: transparent;
@@ -48,6 +56,7 @@ background: transparent;
     font-size: 20px;
     outline: none;
     color: #cac7ff;
+
 `
 export const Options = styled.div`
     color: white;
@@ -67,6 +76,7 @@ export const Li = styled.div`
     color: white;
     row-gap: 3rem;
     z-index: 4;
+    margin-top:10px;
     position: relative;
     text-style:none;
  
