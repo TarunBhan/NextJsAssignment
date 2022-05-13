@@ -8,7 +8,7 @@ interface Props{
     color:string
 }
 const Img:React.FC<Props>=({paths,tag,background,color}):any=>{
-console.log(paths);
+
     return<>
         <Tag>
         <Image src={paths} width="275px" height="375px"  alt=""/>

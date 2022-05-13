@@ -7,15 +7,17 @@ import userInfo from  '../../Images/Vector1.png';
 import notification from  '../../Images/notification.png';
 import { Nav,SearchBar,StyledInput,Options,Notification,Li} from "./Header.styles";
 import { css } from "@emotion/react";
+import Link from "next/link";
 const res=()=>{
 
    return <>
     <Nav>
     <Li><Image src={help} alt=""/></Li>
-    <Li> <a href="#">Packs</a></Li>
-    <Li> <a href="#">MarketPlace</a></Li>
-    <Li> <a href="#">Vault</a></Li>
-    <Li> <a href="#">Club</a>
+    <Li> <Link href="/">Packs
+    </Link> </Li>
+    <Li> <Link href="/">MarketPlace </Link></Li>
+    <Li> <Link href="/">Vault </Link></Li>
+    <Li> <Link href="/">Club </Link>
     <Image src={coming} alt="" />
     </Li>
     <SearchBar>
@@ -28,6 +30,7 @@ const res=()=>{
     <Options>
     <Notification />
     <Image src={notification} alt=""/>
+    
     </Options>
 
     </Nav>

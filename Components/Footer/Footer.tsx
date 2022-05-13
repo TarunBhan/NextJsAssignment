@@ -39,14 +39,14 @@ const Footer = () => {
                             </Inner>
                         </a>
                     </Link>
-                    <Link href="" >
+                    <Link href="/" >
                         <a target="_blank"  rel="noopener noreferrer" >
                             <Inner size="12px" weight="400" color="#969696" lineHeight="" >
                         Terms
                             </Inner>
                         </a>
                     </Link>
-                    <Link href="" >
+                    <Link href="/" >
                         <a target="_blank"  rel="noopener noreferrer" >
                             <Inner size="12px" weight="400" color="#969696" lineHeight="" >
                         Privacy

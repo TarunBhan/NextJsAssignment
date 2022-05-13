@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Pack from "/xyz/Packs.png"
+import pic from "../../Images/Packs.png";
 import { Text,Sub,Para, Wrap,SubText, Desc} from "./content.styles";
 const Content=()=>{
     return(
@@ -22,7 +22,7 @@ const Content=()=>{
         <Desc>
         Get Your Pack Now
         </Desc>
-        <Image src={Pack} alt="" />
+        <Image src={pic} alt="" height="256px" width="919px"  />
     </Wrap>
     <hr></hr>
     </>
