@@ -30,7 +30,7 @@ const Packs: React.FC<Props> = ({ name }): any => {
                                 </CardDetails>
                             </PacksItems>
                         </Main> :
-                        <Space key={currElem.id} />)
+                        null)
                 })
             }
         </Pack>
@@ -65,7 +65,7 @@ const Packs: React.FC<Props> = ({ name }): any => {
                                 </PacksItems>
                             </Main>
                             :
-                          <></>
+                          null
                         )
                     })
                 }
@@ -98,7 +98,7 @@ const Packs: React.FC<Props> = ({ name }): any => {
                                     </PacksItems>
                                 </Main>
                                 :
-                                <Space key={currElem.id} />
+                                null
                             )
                         })
                     }
