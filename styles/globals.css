@@ -35,40 +35,8 @@ a{
   width: 247px;
   height: 166px;
 }
-.setup{
-  display:flex;
-  flex-direction: row;
-  justify-self: space-between;
-  flex-wrap: wrap;
-  gap:7rem;
-  
-}
-.sold-out div{
-  font-family: 'Montserrat',sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 25.7745px;
-  width:185px;
-  position: absolute;
-  text-align: center;
-  z-index: 30;
-  }
-  .sold-out
-  {
-      background-color: black;
-      color:red;
-      border:4px solid red;
-      width:273px;
-  
-      height: 43px;
-      display: flex; 
-      align-items: center;
-      justify-content: center;
-      position: fixed;
-      top:100px;
-    z-index:40;
-      margin-left:20px;
-  }
+
+
   .setup{
     display: flex;
     flex-direction: row;
@@ -76,12 +44,7 @@ a{
     flex-wrap: wrap;
     gap: 7rem;
   }
-  .flex1{
-    display: flex;
-    gap:2rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+ 
   .active{
     background: linear-gradient(180deg, rgba(255, 153, 109, 0) 43.13%, rgba(250, 0, 0, 0.673) 100%);
   }
