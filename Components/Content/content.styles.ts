@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 type TextProps={
     weight:string
     size:string
+   
 }
 type Margin={
     mb:string
@@ -12,15 +13,16 @@ color:${props=>props.color};
 font-family: 'Montserrat', sans-serif;
 font-weight: ${props=>props.weight};
 font-size:${props=>props.size};
-padding-top:12px;
+padding-top:22px;
 line-height: 73px;
 letter-spacing: 0em;
 display:flex;
-margin-top:88px;
+margin-top:75px;
 flex-wrap:wrap;
 position:relative;
-@media (max-width:700px){
-    margin-top:200px;
+
+@media (max-width:1000px){
+    margin-top:25px;
 }
 `
 export const Sub=styled.div`
@@ -69,4 +71,8 @@ flex-direction: row;
 justify-self: space-between;
 flex-wrap: wrap;
 gap:7rem;
+`
+export const MainDiv=styled.div`
+width: 80%;
+margin: 0 auto;
 `

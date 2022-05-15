@@ -7,18 +7,17 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start ;
 flex-wrap: wrap;
-margin-top: 2rem;
-padding: 0;
-height: 3vh;
+margin-top: 1rem;
 
+height: auto;
 gap: 3rem;
 
-@media (max-width:600px)
+@media (max-width:720px)
 {
     display:flex;
     flex-wrap:wrap;
     margin-top:10px;
-    margin-bottom:20rem;
+
     padding:10px;
     gap:3rem;
   
@@ -46,7 +45,7 @@ export const SearchBar= styled.div`
     background: rgba(255, 255, 255, 0.1);
     gap:0.9rem;
     padding:9px;
-    height:30px;
+    height:10px;
     max-width: 264px;
     margin-top: 6px;
 `

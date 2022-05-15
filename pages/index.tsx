@@ -6,6 +6,7 @@ import League from '../Components/PacksHeading'
 import Footer from '../Components/Footer/Footer'
 import Faq from '../Components/Faq/Faq';
 import Packs from '../Components/Packs/packs'
+import { MainDiv } from '../Components/Content/content.styles'
 const Home: NextPage = () => {
   return (<>
   <div>
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
   </div>
-    <div className='main-div'>
+    <MainDiv>
       <Header />
       <Content />
       <League  
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
       />
        <Packs  name="soldout"/>
       <Faq />
-      </div>
+      </MainDiv>
       <Footer />
 
    </>

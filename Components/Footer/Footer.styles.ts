@@ -64,7 +64,7 @@ right: 0;
 bottom: 67px;
 margin-left:200px;
 @media (max-width: 600px){
-    bottom: 216px;
+    bottom: 283px;
 }
 `
 export const Hr=styled.div`
