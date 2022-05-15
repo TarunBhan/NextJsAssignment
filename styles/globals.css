@@ -36,14 +36,6 @@ a{
   height: 166px;
 }
 
-
-  .setup{
-    display: flex;
-    flex-direction: row;
-    justify-self: space-between;
-    flex-wrap: wrap;
-    gap: 7rem;
-  }
  
   .active{
     background: linear-gradient(180deg, rgba(255, 153, 109, 0) 43.13%, rgba(250, 0, 0, 0.673) 100%);
