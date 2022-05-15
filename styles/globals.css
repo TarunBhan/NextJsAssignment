@@ -10,10 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-.main-div{
-  width:80%;
-  margin:0 auto;
-}
+
 hr{
   border-top: 0.5px solid grey;
   opacity: 0.2;
